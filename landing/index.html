@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LafiaNest — Premium Student Housing in Nasarawa</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cursor elements -->
+    <div id="cursor-dot"></div>
+    <div id="cursor-ring"></div>
+
+    <!-- Sticky Navigation -->
+    <nav id="nav">
+        <a href="#" class="nav-logo">
+            <div class="nav-logo-icon">🏠</div>
+            LafiaNest
+        </a>
+        <ul class="nav-links">
+            <li><a href="#listings">Explore Homes</a></li>
+            <li><a href="#trust">Safety First</a></li>
+            <li><a href="#universities">Our Campuses</a></li>
+            <li><a href="#community">Community</a></li>
+        </ul>
+        <div class="nav-actions">
+            <a href="#" class="nav-signin">Sign In</a>
+            <a href="#" class="nav-cta">Download App</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-mesh"></div>
+        <div class="hero-dots"></div>
+        
+        <div class="hero-collage reveal-scale">
+            <div class="collage-item item-1">
+                <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&q=80" alt="Luxe Student Living">
+            </div>
+            <div class="collage-item item-2">
+                <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500&q=80" alt="Safe and Secure">
+            </div>
+            <div class="collage-item item-3">
+                <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=400&q=80" alt="Modern Interiors">
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <span class="eyebrow reveal">Safe Homes. Every Campus. Nasarawa.</span>
+            <h1 class="hero-h1 reveal d1">Find your <em>perfect home</em> near campus</h1>
+            <p class="hero-sub reveal d2">Transparent rent, verified landlords, and real GPS distances. We've built the most trusted housing platform for students in Nasarawa State.</p>
+            
+            <div class="hero-search reveal d3">
+                <div class="search-field">
+                    <span>🔍</span>
+                    <input type="text" placeholder="Search by area, street, or price...">
+                </div>
+                <div class="search-divider"></div>
+                <div class="search-field">
+                    <span>🎓</span>
+                    <input type="text" placeholder="Choose University">
+                </div>
+                <button class="search-btn">Search</button>
+            </div>
+
+            <div class="hero-stats reveal d4">
+                <div class="stat-item">
+                    <span class="stat-num" data-target="1200" data-suffix="+">0</span>
+                    <span class="stat-label">Active Listings</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num" data-target="98" data-suffix="%">0</span>
+                    <span class="stat-label">Verified Scams-Free</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num" data-target="8400" data-suffix="+">0</span>
+                    <span class="stat-label">Students Housed</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <div class="trust-bar luxe-section">
+        <div class="trust-item reveal d1"><span class="ti-icon">🛡️</span> Verified landlords</div>
+        <div class="trust-sep"></div>
+        <div class="trust-item reveal d2"><span class="ti-icon">📍</span> GPS Campus Distance</div>
+        <div class="trust-sep"></div>
+        <div class="trust-item reveal d3"><span class="ti-icon">📊</span> Rent History</div>
+        <div class="trust-sep"></div>
+        <div class="trust-item reveal d4"><span class="ti-icon">⚡</span> Zero Student Fees</div>
+    </div>
+
+    <!-- Featured Listings Section -->
+    <section id="listings" class="luxe-section">
+        <div class="section-header">
+            <div class="header-content">
+                <span class="eyebrow reveal">Curated Collection</span>
+                <h2 class="reveal d1">Homes students <em>actually love</em></h2>
+            </div>
+            <div class="header-action reveal d2">
+                <a href="#" class="text-link">View all properties →</a>
+            </div>
+        </div>
+
+        <div class="listings-container">
+            <div class="editorial-grid">
+                <article class="prop-card featured reveal d1">
+                    <div class="card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80" alt="Luxe Flat">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-price">₦55,000 <span>/year</span></span>
+                        <h3 class="card-title">Modern self-contain with constant water & 24hr security</h3>
+                        <p class="card-address">Obi Road, Lafia · 0.4 km from FULAFIA</p>
+                        <div class="card-meta">
+                            <span class="meta-item">🛏 1 Bed</span>
+                            <div class="trust-score-mini" data-score="92"></div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="prop-card reveal d2">
+                    <div class="card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=500&q=80" alt="Classic Room">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-price">₦38,000 <span>/year</span></span>
+                        <h3 class="card-title">Spacious room in shared flat near NSUK Keffi</h3>
+                        <p class="card-address">Keffi Road, Keffi · Shared Kitchen</p>
+                        <div class="card-meta">
+                            <span class="meta-item">🛏 1 Bed</span>
+                            <div class="trust-score-mini" data-score="65"></div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="prop-card reveal d3">
+                    <div class="card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=500&q=80" alt="Semester Studio">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-price">₦25,000 <span>/semester</span></span>
+                        <h3 class="card-title">Flexible semester lease for vacation periods</h3>
+                        <p class="card-address">Makurdi Road, Lafia · Near FULAFIA</p>
+                        <div class="card-meta">
+                            <span class="meta-item">🛏 1 Bed</span>
+                            <div class="trust-score-mini" data-score="86"></div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how" class="luxe-section dark-section overflow-hidden">
+        <div class="section-header">
+            <div class="header-content">
+                <span class="eyebrow reveal">The Journey</span>
+                <h2 class="reveal d1">Search to <em>safe move-in</em> in four steps</h2>
+            </div>
+        </div>
+        
+        <div class="listings-container">
+            <div class="how-grid-editorial">
+                <div class="how-step reveal d1">
+                    <span class="step-tag">01</span>
+                    <h3>Pick Campus</h3>
+                    <p>Select your institution. Distances are calculated to your actual gate using real GPS.</p>
+                </div>
+                <div class="how-step reveal d2">
+                    <span class="step-tag">02</span>
+                    <h3>Discover</h3>
+                    <p>Filter by budget and amenities. Every listing shows the full verified rent history.</p>
+                </div>
+                <div class="how-step reveal d3">
+                    <span class="step-tag">03</span>
+                    <h3>Schedule</h3>
+                    <p>Book viewings safely through the app. We notify emergency contacts for your safety.</p>
+                </div>
+                <div class="how-step reveal d4">
+                    <span class="step-tag">04</span>
+                    <h3>Move In</h3>
+                    <p>Pay with confidence. In-app communication keeps your personal details private.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Features Section -->
+    <section id="trust" class="luxe-section">
+        <div class="trust-editorial-grid">
+            <div class="trust-content reveal-left">
+                <span class="eyebrow">Trust Architecture</span>
+                <h2>Built for <em>absolute safety</em></h2>
+                <div class="feat-editorial-list">
+                    <div class="feat-item">
+                        <div class="feat-icon-luxe">🛡️</div>
+                        <div>
+                            <h4>Landlord Trust Score</h4>
+                            <p>Proprietary 0-100 score based on verification and history.</p>
+                        </div>
+                    </div>
+                    <div class="feat-item">
+                        <div class="feat-icon-luxe">📊</div>
+                        <div>
+                            <h4>Rent History</h4>
+                            <p>See exactly how rent prices changed over the last 5 years.</p>
+                        </div>
+                    </div>
+                    <div class="feat-item">
+                        <div class="feat-icon-luxe">✅</div>
+                        <div>
+                            <h4>Move-In Ready</h4>
+                            <p>Pre-inspected properties that meet all 8 safety criteria.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="trust-visual reveal-right">
+                <div class="phone-mockup-luxe">
+                    <div class="phone-inner">
+                        <!-- Simulated App Content -->
+                        <div class="app-header">LafiaNest</div>
+                        <div class="app-card">
+                            <div class="app-card-img"></div>
+                            <div class="app-card-info">
+                                <div class="app-tag">Verified</div>
+                                <div class="app-title">Premium Self-Contain</div>
+                                <div class="app-score">Trust 98</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floating-badge badge-top">Verified Landlord 🛡️</div>
+                    <div class="floating-badge badge-bottom">Move-In Ready ✅</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Universities Coverage -->
+    <section id="universities" class="luxe-section bg-alt">
+        <div class="section-header centered">
+            <span class="eyebrow reveal">Coverage</span>
+            <h2 class="reveal d1">Every campus. <em>One platform.</em></h2>
+        </div>
+        <div class="listings-container">
+            <div class="uni-editorial-row">
+                <div class="uni-luxe-card reveal d1">
+                    <span class="uni-icon">🏛️</span>
+                    <h3>FULAFIA</h3>
+                    <p>840+ Listings</p>
+                </div>
+                <div class="uni-luxe-card reveal d2">
+                    <span class="uni-icon">🏫</span>
+                    <h3>NSUK Keffi</h3>
+                    <p>290+ Listings</p>
+                </div>
+                <div class="uni-luxe-card reveal d3">
+                    <span class="uni-icon">📚</span>
+                    <h3>NSUK Lafia</h3>
+                    <p>120+ Listings</p>
+                </div>
+                <div class="uni-luxe-card reveal d4">
+                    <span class="uni-icon">🌾</span>
+                    <h3>COA Lafia</h3>
+                    <p>95+ Listings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="luxe-section dark-section cta-final">
+        <div class="cta-content reveal">
+            <h2 class="final-h2">Find your home <em>today</em></h2>
+            <p>Join 8,000+ students already using Nasarawa's most trusted platform.</p>
+            <div class="final-btns">
+                <a href="#" class="btn-main">Download App</a>
+                <a href="#" class="btn-outline">List Property</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-main">
+            <div>
+                <a href="#" class="footer-logo">LafiaNest</a>
+                <p>Nasarawa State's most trusted student housing platform.</p>
+            </div>
+            <div>
+                <h4 class="footer-title">Platform</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Explore Homes</a></li>
+                    <li><a href="#">Roommate Finder</a></li>
+                    <li><a href="#">Community Board</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-title">Company</h4>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Safety Tips</a></li>
+                    <li><a href="#">Contact Support</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-title">Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Report a Scam</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 LafiaNest. Built with ❤️ for Nigerian Students.</p>
+            <div class="footer-social">Twitter · Instagram · LinkedIn</div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+</html>
